@@ -25,18 +25,7 @@ class DataHandling:
 
     
     def AddData(self):
-        # Workflow:
-        # 1. Fetch existing data from DataBase.json
-        # 2. Get License Plate ID and Name from user
-        # 3. Format input as JSON (Python Dictionary)
-        # 4. Display formatted data for confirmation
-        # 5. If user confirms:
-        #       - Add new data to existing database
-        #       - Save updated database to DataBase.json
-        #       - END
-        #    Otherwise:
-        #       - Return to step 1
-
+        
         def userInput():
             # 1. Get data from user
             plate_id = input("Enter License Plate ID: ").strip()
